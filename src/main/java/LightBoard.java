@@ -14,8 +14,8 @@ public class LightBoard
     lights = new boolean[numRows][numCols];
     for(int r=0; r<numRows;r++){
       for(int c=0; c<numCols; c++){
-        int n=(int)(Math.random()*11);
-        if(n<5)
+        int n=(int)(Math.random()*10);
+        if(n<4)
         lights=[r][c]=true;
       }
     }
